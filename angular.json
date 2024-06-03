@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fe-base-breda": {
+    "fe-academy-quarkus": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -41,7 +41,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/fe-base-breda",
+            "outputPath": "dist/fe-academy-quarkus",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -88,10 +88,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "fe-base-breda:build:production"
+              "buildTarget": "fe-academy-quarkus:build:production"
             },
             "development": {
-              "buildTarget": "fe-base-breda:build:development"
+              "buildTarget": "fe-academy-quarkus:build:development"
             }
           },
           "defaultConfiguration": "development"

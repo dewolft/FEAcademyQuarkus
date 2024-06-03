@@ -1,6 +1,7 @@
-# FeBaseBreda
+# FrontEnd Academy Quarkus
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+ATTENZIONE!!!! : cercare all'interno del progetto CAMBIA QUI!! e sostituire con gli Endpoint scritti durante l'academy
 
 ## Development server
 
